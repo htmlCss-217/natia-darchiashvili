@@ -1,0 +1,84 @@
+#About {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+.Abouttravel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.Abouttravel:hover {
+    background-color: rgb(238, 222, 129);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 2px;
+}
+
+#image1 {
+    width: 960px;
+    height: 300px;
+}
+
+#photo1 , #photo2 , #photo3 {
+    width: 300px;
+    height: 200px;
+}
+
+.traveling {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraphs {
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 20px;
+    background-color: rgb(168, 233, 233);
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.survey {
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 20px;
+    background-color: rgb(168, 233, 233);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.button {
+    background-color: rgb(228, 148, 224);
+    color: black;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 60px;
+    text-align: center;   
+    margin-left: 10px;
+    margin-right: 10px;
+} 
+
+.button:hover {
+    background-color: blueviolet;
+}
+
+.pushthebutton {
+    display: flex;
+}
