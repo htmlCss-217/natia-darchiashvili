@@ -32,6 +32,11 @@ nav {
     height: 200px;
 }
 
+#photo2:hover, #photo1:hover, #photo3:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 .traveling {
     display: flex;
     flex-direction: column;
