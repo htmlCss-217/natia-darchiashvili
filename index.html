@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+        body {
+             font-family: "Roboto Mono", monospace;
+             background-color: #333;
+             height: 1000px;
+        }
+        nav{
+            position: sticky;
+            top:0;
+            margin-left: 55px;
+            margin-right: 30px;
+        }
+        .navigation {
+             overflow: hidden;
+             background-color: #333;
+        }
+        .navigation a {
+             float: right;
+             color: white;
+             text-align: center;
+             padding: 14px 16px;
+             text-decoration: none;
+             font-size: 20px;
+        }
+        .navigation a:hover {
+             background-color: #201a1a;
+             color: black;
+        }
+        .icon-bar {
+             position: fixed;
+             top: 50%;
+             transform: translateY(-50%);
+        }
+        .icon-bar a {
+             display: block;
+             text-align: center;
+             padding: 16px;
+             transition: all 0.3s ease;
+             color: white;
+             font-size: 20px;
+        }
+        .icon-bar a:hover {
+             background-color: black;
+        }
+        .facebook {
+             background: #3B5998;
+             color: white;
+        }    
+        .twitter {
+             background: #55ACEE;
+             color: white;
+        }
+        .google {
+             background: #dd4b39;
+             color: white;
+        }
+       .linkedin {
+             background: #007bb5;
+             color: white;
+        }
+        .youtube {
+             background: #bb0000;
+             color: white;
+        }
+        .headline {
+            text-shadow: 5px 10px 7px black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 20px;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        .headline:hover {
+            background-color: #201a1a;  
+        }
+        .paragraphs {
+            font-size: 17px;
+            color:white;
+            padding: 10px;
+            margin-top: 20px;
+            margin-left: 50px;
+            margin-right: 30px;
+        }
+        table {
+            margin-top: 20px;
+            margin-left: 300px;
+            margin-right: 30px;
+        }
+        table, th, td{
+            color:white;
+            border: 1px solid white;
+        }
+        th:hover {
+            background-color:gold;
+            color:black;
+        }
+        td:hover {
+            background-color:blue
+        }
+        .stars {
+            display: flex;
+            margin-left: 50px;
+            color: white;
+        }
+        #star1:hover, #star2:hover, #star3:hover, #star4:hover, #star5:hover {
+            color: gold;
+        }
+        .textbox {
+            border: white;
+            margin-top: 20px;
+            margin-left: 100px;
+            margin-right: 20px;
+            justify-content:flex-start;
+        }
+        .buttons {
+            display: flex;
+            color: black;
+            padding: 10px;
+            text-align: center;
+            margin-left: 100px;
+            margin-right: 1000px;
+            justify-content: space-between;
+        }
+        .button1:hover {
+            transform: scale(1.1);
+        }
+        .button2:hover {
+            transform: scale(1.1);
+        }
+        .text:hover {
+            color:gold;
+        }
+        footer {
+            display: flex;
+            flex-flow: row wrap;
+            margin-left: 55px;
+            left:0;
+            bottom:0;
+            width: 100%;
+            background-color:  #333;
+            text-align: center;
+            align-items: center;
+        }
+        .footer-manue-list , .footer-manue-list2 , .footer-manue-list3 {
+            display: flex;
+            justify-content: space-between;
+            margin-right: 200px;
+            margin-inline-start: 100px;
+            margin-inline-end: 100px;
+        }
+        .footer-manue-list a  {
+            display: flex;
+            color: white;
+            text-align: center;
+            padding: 10;
+            text-decoration: none;
+            margin-left: 50px;
+        }            
+    </style>
+    <nav>
+        <div class="navigation" id="engText">
+        <a class="active" href="home">Home</a>
+        <a href="about">About</a>
+        <a href="gallery">Gallery</a>
+        <a href="services">Services</a>
+        <a href="tutorials">Tutorials</a>
+        <a href="contact">Contact</a>
+    </nav>
+</head>
+<body>
+    <div class="icon-bar">
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+        <a href="#" class="google"><i class="fa fa-google"></i></a> 
+        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+    </div> 
+    <div class="headline" id="engText">
+         <h1>Population and demographics</h1>
+    </div>
+    <div class="paragraphs" id="engText">
+        <p>Demographics are the various characteristics of a population. Examples of demographics can include factors such as the race, sex and age of a population that is being studied. The statistical information on the population's socioeconomic conditions is known as demographic data. Demography is the science of populations. Demographers seek to understand population dynamics by investigating three main demographic processes: birth, migration, and aging (including death).</p>
+        <p>What Are Demographics? Demographics are statistics that describe populations and their characteristics. Demographic analysis is the study of a population-based on factors such as age, race, and sex.</p>
+        <p>Population size is the number of individuals in a population. Population density is the average number of individuals per unit of area or volume. The pattern of spacing of individuals in a population may be affected by the characteristics of a species or its environment.</p>
+    </div>
+        <table>
+            <tr>
+                <th></th>
+                <td id="engText">2021</td>
+                <td id="engText">2022</td>
+                <td id="engText">2023</td>
+                <td id="engText">2024</td>
+            </tr>
+            <tr>
+                <th id="engText">The population as of January 1, thousand people</th>
+                <td id="engText">3 728.6</td>
+                <td id="engText">3 688.6</td>
+                <td id="engText">3 736.4</td>
+                <td id="engText">3 694.6</td>
+            </tr>
+            <tr>
+                <th id="engText">Number of live births, person</th>
+                <td id="engText">45 946</td>
+                <td id="engText">42 319</td>
+                <td id="engText">40 214</td>
+                <td id="engText">---</td>
+            </tr>
+            <tr>
+                <th id="engText">The number of dead, people</th>
+                <td id="engText">59 906</td>
+                <td id="engText">49 118</td>
+                <td id="engText">42 756</td>
+                <td id="engText">---</td>
+            </tr>
+            <tr>
+                <th id="engText">Number of marriages, units</th>
+                <td id="engText">23 155</td>
+                <td id="engText">10 654</td>
+                <td id="engText">74 008</td>
+                <td id="engText">---</td>
+            </tr> 
+        </table>
+        <div class="comment">
+            <p style="display: flex; margin-left: 150px; margin-top: 20px; color: white; padding: 10px;">Add a comment</p>
+        </div>
+        
+        <div class="stars">
+            <ul id="star1">☆</ul>
+            <ul id="star2">☆</ul>
+            <ul id="star3">☆</ul>
+            <ul id="star4">☆</ul>
+            <ul id="star5">☆</ul>
+        </div>
+        <div class="textbox">
+            <textarea name="comments" id="comments; engText; position: fixed;" rows="10">
+                What is your view?
+            </textarea>
+        </div>
+         <div class="buttons" id="engText">
+                <div class="button1">
+                    <button style="background-color: red; cursor: pointer; border: none; border-radius: 5px;">
+                       DANGER
+                    </button>
+                </div>
+                <div class="button2">
+                     <button style="background-color: green; cursor: pointer; border: none; border-radius: 5px;">
+                         SEND
+                    </button>
+                </div>
+        </div>  
+</body>
+<footer>
+    <div class="footer-manue">
+        <div class="footer-manue-list">
+             <ul>
+                 <h2 style="display: flex; color:  white; font-size: 20px; text-align: center;">USEFUL LINKS</h2>
+                 <div class="footer-manue" style="font-size: 15px;">
+                     <a href="#"><ul>About</ul></a>
+                     <a href="#"><ul>Services</ul></a>
+                     <a href="#"><ul>Contact</ul></a>
+                     <a href="#"><ul>Shop</ul></a>
+                     <a href="#"><ul>Blog</ul></a>
+                 </div>
+             </ul>
+        <div class="footer-manue-list2">
+             <ul>
+                 <h3 style="display: flex; color: white; text-align: center;">NEWSLETTER</h3>
+                 <input type="email" id="email" name="email" value="your email address" style="display: flex; text-align: center;">
+                 <button style="display: flex; background-color: #333; color: white; border-radius: 50px; margin-top: 10px; margin-bottom: 10px; margin-left: 5px; margin-right: 5px; text-align: center; cursor: pointer; padding: 20px;">SUBSCRIBE NOW</button>
+             </ul>
+         </div>
+         <div class="footer-manue-list3">
+             <ul>
+                 <h3 style="display: flex; color: white; text-align: center;">CONTACT</h3>
+                 <p style="display: flex; color: white; text-align: center; font-size: 15px;">123, XYZ Road, BSK 3
+                     Bangalore, Karnataka, IN</p>
+                </ul>  
+         </div>         
+    </div>
+</footer>
+</html>
