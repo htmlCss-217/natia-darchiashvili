@@ -8,11 +8,11 @@ function myFunction () {
     alert(`The temperature in Fahrenheit is ${fahrenheit.toFixed(2)}`);
 }
 
-function Function() {
+function FahFunction() {
     document.getElementById("Fahrenheit").innerHTML = "The symbol for degree Fahrenheit is °F.";
   }
 
-  function Function() {
+  function CelFunction() {
     document.getElementById("Celsius").innerHTML = "The symbol for degree Celsius is °C.";
   }  
 
