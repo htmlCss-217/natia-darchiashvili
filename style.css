@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", serif;   
+    background-color: rgb(103, 103, 250);
+}
+
+#clickthebutton {
+    font-family: "Montserrat", serif;
+}
+
+#clickthebutton:hover {
+    cursor: pointer;
+}
+
+#Formula {
+    font-weight: bolder;
+    color: red;
+}
+
+#Fahrenheit {
+    font-weight: bold;
+}
+
+#Fahrenheit:hover {
+    cursor: pointer;
+    color: gold;
+}
+
+#Celsius {
+    font-weight: bold;
+}
+
+#Celsius:hover {
+    cursor: pointer;
+    color: gold;
+}
